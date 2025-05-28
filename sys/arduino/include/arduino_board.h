@@ -7,6 +7,8 @@
  * directory for more details.
  */
 
+#pragma once
+
 /**
  * @ingroup     sys_arduino
  * @{
@@ -18,9 +20,6 @@
  * @author      Laurent Navet   <laurent.navet@gmail.com>
  * @author      Thomas Perrot   <thomas.perrot@tupi.fr>
  */
-
-#ifndef ARDUINO_BOARD_H
-#define ARDUINO_BOARD_H
 
 #include "arduino_board_analog.h"
 #include "arduino_board_pins.h"
@@ -62,5 +61,4 @@ extern "C" {
 }
 #endif
 
-#endif /* ARDUINO_BOARD_H */
 /** @} */
